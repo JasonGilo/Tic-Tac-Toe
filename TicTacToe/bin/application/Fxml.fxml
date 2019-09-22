@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="325.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <Pane prefHeight="325.0" prefWidth="300.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="84.0" fitWidth="60.75" layoutX="118.0" layoutY="6.0" mouseTransparent="true" pickOnBounds="true" scaleX="5.0" scaleY="1.25">
+               <image>
+                  <Image url="@nordwood-themes-524102-unsplash.jpg" />
+               </image>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </ImageView>
+            <Line endX="270.00006103515625" layoutX="30.0" layoutY="253.0" startX="-31.0" />
+            <Line endX="-100.0" endY="202.0" layoutX="300.0" layoutY="125.0" startX="-100.0" startY="-23.5" />
+            <Line endX="-100.0" endY="202.0" layoutX="200.0" layoutY="125.0" startX="-100.0" startY="-23.5" />
+            <Line endX="243.00006103515625" endY="0.5" layoutX="57.0" layoutY="170.0" startX="-57.0" />
+            <Text layoutX="46.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TicTacToe" wrappingWidth="209.13671875">
+               <font>
+                  <Font size="48.0" />
+               </font>
+               <effect>
+                  <Glow />
+               </effect>
+            </Text>
+            <Text fx:id="textOne" layoutY="149.0" onMouseClicked="#TextOnClickOne" scaleY="1.5" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="101.13671875">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Text>
+            <Text fx:id="textTwo" layoutX="100.0" layoutY="149.0" onMouseClicked="#TextOnClickTwo" scaleY="1.5" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="101.13671865358265">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Text>
+            <Text fx:id="textThree" layoutX="200.0" layoutY="149.0" onMouseClicked="#TextOnClickThree" scaleY="1.5" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="101.13671865358265">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Text>
+            <Text fx:id="textFour" layoutY="227.0" onMouseClicked="#TextOnClickFour" scaleY="1.7" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="101.13671602352724">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Text>
+            <Text fx:id="textFive" layoutX="99.0" layoutY="228.0" onMouseClicked="#TextOnClickFive" scaleY="1.7" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="101.13671602352724">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Text>
+            <Text fx:id="textSix" layoutX="200.0" layoutY="226.0" onMouseClicked="#TextOnClickSix" scaleY="1.7" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="101.13671602352724">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Text>
+            <Text fx:id="textSeven" layoutY="303.0" onMouseClicked="#TextOnClickSeven" scaleY="1.5" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="101.13671602352724">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Text>
+            <Text fx:id="textEight" layoutX="102.0" layoutY="304.0" onMouseClicked="#TextOnClickEight" scaleY="1.5" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="94.13672006414708">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Text>
+            <Text fx:id="textNine" layoutX="200.0" layoutY="302.0" onMouseClicked="#TextOnClickNine" scaleY="1.5" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="101.13671324476127">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Text>
+            <Text fx:id="textWinner" fill="#ab0404" layoutX="-1.0" layoutY="33.0" mouseTransparent="true" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="300.00000558793545">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <effect>
+                  <Glow />
+               </effect>
+            </Text>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
